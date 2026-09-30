@@ -1,0 +1,16 @@
+[project]
+name = "huggingface"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=5.0.1",
+    "torch>=2.14.0",
+    "transformers[sentencepiece]>=5.17.0",
+]
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+]
