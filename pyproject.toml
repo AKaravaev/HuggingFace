@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "datasets>=5.0.1",
+    "evaluate>=0.4.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
     "torch>=2.14.0",
     "transformers[sentencepiece]>=5.17.0",
 ]
